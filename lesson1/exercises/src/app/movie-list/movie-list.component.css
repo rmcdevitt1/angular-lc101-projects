@@ -1,0 +1,12 @@
+.movies h3 {
+    color: blueviolet;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.movies li {
+    color: darkolivegreen;
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+}
