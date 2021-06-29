@@ -10,9 +10,15 @@ h3 {
     text-align: center;
 }
 
+
 img {
     max-width: 15%;
     height: auto;
     display: block;
     margin: auto;
+}
+
+.treat {
+    text-align: center;
+    color: green;
 }
