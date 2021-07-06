@@ -38,7 +38,7 @@ export class AppComponent {
  }
 
 
-  handleLanding() {
+  handleLanding(rocketImage) {
     let result = window.confirm("The shuttle is landing. Landing gear engaged.");
     if (result) {
       this.color = "green";
@@ -52,7 +52,7 @@ export class AppComponent {
   }
 
 
-  handleAbort() {
+  handleAbort(rocketImage) {
     let result = window.confirm("Do you really want to abort the mission?");
     if (result) {
       this.color = "red";
